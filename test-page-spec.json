@@ -1,0 +1,97 @@
+{
+  "pageSpec": {
+    "site": {
+      "title": "Nova",
+      "description": "A modern technology company",
+      "purpose": "Introduce a technology product"
+    },
+    "theme": {
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#7c3aed",
+      "backgroundColor": "#ffffff",
+      "textColor": "#111827",
+      "typography": {
+        "headingFont": "Inter",
+        "bodyFont": "Inter"
+      }
+    },
+    "navigation": {
+      "exists": true,
+      "items": [
+        {
+          "label": "Home",
+          "href": "#"
+        },
+        {
+          "label": "Features",
+          "href": "#features"
+        },
+        {
+          "label": "About",
+          "href": "#about"
+        }
+      ],
+      "behavior": "Horizontal navigation with responsive mobile behavior"
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "type": "hero",
+        "order": 1,
+        "purpose": "Introduce the product",
+        "heading": "Build something remarkable",
+        "content": [
+          "A modern platform for ambitious teams."
+        ],
+        "layout": {
+          "direction": "row",
+          "alignment": "center",
+          "justification": "space-between"
+        },
+        "visualDescription": "Large hero section with heading, supporting text and primary CTA.",
+        "backgroundColor": "#ffffff",
+        "hasImage": false,
+        "imageDescription": "",
+        "hasCTA": true,
+        "ctaText": "Get Started"
+      },
+      {
+        "id": "features",
+        "type": "features",
+        "order": 2,
+        "purpose": "Explain the main benefits",
+        "heading": "Everything you need",
+        "content": [
+          "Fast",
+          "Simple",
+          "Powerful"
+        ],
+        "layout": {
+          "direction": "row",
+          "alignment": "stretch",
+          "justification": "space-between"
+        },
+        "visualDescription": "Three feature cards in a horizontal layout.",
+        "backgroundColor": "#f9fafb",
+        "hasImage": false,
+        "imageDescription": "",
+        "hasCTA": false,
+        "ctaText": ""
+      }
+    ],
+    "footer": {
+      "exists": true,
+      "description": "Simple footer with navigation links."
+    },
+    "responsive": {
+      "mobileBehavior": "Stack horizontal sections vertically.",
+      "navigationBehavior": "Collapse navigation on mobile.",
+      "layoutChanges": [
+        "Stack feature cards.",
+        "Reduce heading size.",
+        "Reduce horizontal padding."
+      ]
+    },
+    "designSummary": "Clean modern technology landing page."
+  }
+}
